@@ -1,0 +1,29 @@
+#shadow-filter {
+    box-shadow: 0px 0px 4px 0px black;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 0.5vw;
+    /* Adjust the width as needed */
+}
+
+/* Track - color of the track */
+::-webkit-scrollbar-track {
+    border-radius: 1vw;
+    background: #f1f1f1;
+    /* Change the background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 1vw;
+    background: #888;
+    /* Change the color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Change the color of the scrollbar handle on hover */
+}
